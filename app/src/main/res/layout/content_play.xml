@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_play" tools:context=".PlayActivity">
+
+    <TextView android:text="Which is a cup?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:textColor="#3F51B5"
+        android:clickable="false"
+        android:layout_below="@+id/progressBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstImageButton"
+        android:background="#D6D7D7"
+        android:minHeight="150dp"
+        android:minWidth="150dp"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/secondImageButton"
+        android:background="#D6D7D7"
+        android:minHeight="150dp"
+        android:minWidth="150dp"
+        android:layout_above="@+id/pic1TextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/thirdImageButton"
+        android:background="#D6D7D7"
+        android:minHeight="150dp"
+        android:minWidth="150dp"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/pic1TextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fourthImageButton"
+        android:background="#D6D7D7"
+        android:minHeight="150dp"
+        android:minWidth="150dp"
+        android:layout_above="@+id/pic4TextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:indeterminate="false"
+        android:max="12"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pic1TextView"
+        android:text="@string/string1"
+        android:textColor="#3F51B5"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/firstImageButton"
+        android:layout_alignRight="@+id/firstImageButton"
+        android:layout_alignEnd="@+id/firstImageButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pic2TextView"
+        android:text="@string/string2"
+        android:textColor="#3F51B5"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/secondImageButton"
+        android:layout_alignLeft="@+id/secondImageButton"
+        android:layout_alignStart="@+id/secondImageButton"
+        android:layout_alignRight="@+id/secondImageButton"
+        android:layout_alignEnd="@+id/secondImageButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pic3TextView"
+        android:text="@string/string3"
+        android:textColor="#3F51B5"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/thirdImageButton"
+        android:layout_alignLeft="@+id/pic1TextView"
+        android:layout_alignStart="@+id/pic1TextView"
+        android:layout_alignRight="@+id/thirdImageButton"
+        android:layout_alignEnd="@+id/thirdImageButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pic4TextView"
+        android:text="@string/string4"
+        android:textColor="#3F51B5"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/thirdImageButton"
+        android:layout_alignLeft="@+id/pic2TextView"
+        android:layout_alignStart="@+id/pic2TextView"
+        android:layout_alignRight="@+id/fourthImageButton"
+        android:layout_alignEnd="@+id/fourthImageButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="7dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="#3F51B5"
+        android:textAlignment="center"
+        android:id="@+id/submitButtonPlay"
+        android:textAllCaps="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/pic3TextView" />
+
+</RelativeLayout>

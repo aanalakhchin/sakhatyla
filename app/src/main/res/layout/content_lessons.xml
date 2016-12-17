@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".LessonsActivity"
+    tools:showIn="@layout/activity_lessons">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basics"
+        android:id="@+id/basicsButton"
+        android:height="65dp"
+        android:width="180dp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textAllCaps="false"
+        android:background="#3F51B5"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/numbersButton"
+        android:layout_alignStart="@+id/numbersButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numbers"
+        android:id="@+id/numbersButton"
+        android:height="65dp"
+        android:width="180dp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textAllCaps="false"
+        android:background="#3F51B5"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/basicsButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Family"
+        android:id="@+id/familyButton"
+
+        android:height="65dp"
+        android:width="180dp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textAllCaps="false"
+        android:background="#3F51B5"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/numbersButton"
+        android:layout_alignLeft="@+id/numbersButton"
+        android:layout_alignStart="@+id/numbersButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phrases"
+        android:id="@+id/phrasesButton"
+        android:height="65dp"
+        android:width="180dp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textAllCaps="false"
+        android:background="#3F51B5"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/familyButton"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

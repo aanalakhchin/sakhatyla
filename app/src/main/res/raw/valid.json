@@ -1,0 +1,323 @@
+{
+	"lessons": [{
+		"rounds": [{
+			"questions": [{
+				"questionText": "goblet",
+				"answers": [{
+					"answerText": "er kihi",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.er_kihi"
+				}, {
+					"answerText": "choroon",
+					"isCorrectAnswer": true,
+					"drawableSource": "R.drawable.choroon"
+				}, {
+					"answerText": "uu",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.uu"
+				}, {
+					"answerText": "kun",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.kun"
+				}]
+			}, {
+				"questionText": "water",
+				"answers": [{
+					"answerText": "er kihi",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.er_kihi"
+				}, {
+					"answerText": "choroon",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.choroon"
+				}, {
+					"answerText": "uu",
+					"isCorrectAnswer": true,
+					"drawableSource": "R.drawable.uu"
+				}, {
+					"answerText": "kun",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.kun"
+				}]
+			}, {
+				"questionText": "man",
+				"answers": [{
+					"answerText": "er kihi",
+					"isCorrectAnswer": true,
+					"drawableSource": "R.drawable.er_kihi"
+				}, {
+					"answerText": "choroon",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.choroon"
+				}, {
+					"answerText": "uu",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.uu"
+				}, {
+					"answerText": "kun",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.kun"
+				}]
+			}, {
+				"questionText": "sun",
+				"answers": [{
+					"answerText": "er kihi",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.er_kihi"
+				}, {
+					"answerText": "choroon",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.choroon"
+				}, {
+					"answerText": "uu",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.uu"
+				}, {
+					"answerText": "kun",
+					"isCorrectAnswer": true,
+					"drawableSource": "R.drawable.kun"
+				}]
+			}]
+		}]
+	}, {
+		"rounds": [{
+			"questions": [{
+				"questionText": "one",
+				"answers": [{
+					"answerText": "biir",
+					"isCorrectAnswer": true,
+					"drawableSource": "R.drawable.biir"
+				}, {
+					"answerText": "ikki",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.ikki"
+				}, {
+					"answerText": "us",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.us"
+				}, {
+					"answerText": "tuert",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.tuert"
+				}]
+			}, {
+				"questionText": "two",
+				"answers": [{
+					"answerText": "biir",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.biir"
+				}, {
+					"answerText": "ikki",
+					"isCorrectAnswer": true,
+					"drawableSource": "R.drawable.ikki"
+				}, {
+					"answerText": "us",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.us"
+				}, {
+					"answerText": "tuert",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.tuert"
+				}]
+			}, {
+				"questionText": "three",
+				"answers": [{
+					"answerText": "biir",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.biir"
+				}, {
+					"answerText": "ikki",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.ikki"
+				}, {
+					"answerText": "us",
+					"isCorrectAnswer": true,
+					"drawableSource": "R.drawable.us"
+				}, {
+					"answerText": "tuert",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.tuert"
+				}]
+			}, {
+				"questionText": "four",
+				"answers": [{
+					"answerText": "biir",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.biir"
+				}, {
+					"answerText": "ikki",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.ikki"
+				}, {
+					"answerText": "us",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.us"
+				}, {
+					"answerText": "tuert",
+					"isCorrectAnswer": true,
+					"drawableSource": "R.drawable.tuert"
+				}]
+			}]
+		}]
+	},{
+		"rounds": [{
+			"questions": [{
+				"questionText": "mother",
+				"answers": [{
+					"answerText": "iye",
+					"isCorrectAnswer": true,
+					"drawableSource": "R.drawable.iye"
+				}, {
+					"answerText": "a5a",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.a5a"
+				}, {
+					"answerText": "o5o",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.o5o"
+				}, {
+					"answerText": "jie kergen",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.jie_kergen"
+				}]
+			}, {
+				"questionText": "father",
+				"answers": [{
+					"answerText": "iye",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.iye"
+				}, {
+					"answerText": "a5a",
+					"isCorrectAnswer": true,
+					"drawableSource": "R.drawable.a5a"
+				}, {
+					"answerText": "o5o",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.o5o"
+				}, {
+					"answerText": "jie kergen",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.jie_kergen"
+				}]
+			}, {
+				"questionText": "child",
+				"answers": [{
+					"answerText": "iye",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.iye"
+				}, {
+					"answerText": "a5a",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.a5a"
+				}, {
+					"answerText": "o5o",
+					"isCorrectAnswer": true,
+					"drawableSource": "R.drawable.o5o"
+				}, {
+					"answerText": "jie kergen",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.jie_kergen"
+				}]
+			}, {
+				"questionText": "family",
+				"answers": [{
+					"answerText": "iye",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.iye"
+				}, {
+					"answerText": "a5a",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.a5a"
+				}, {
+					"answerText": "o5o",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.o5o"
+				}, {
+					"answerText": "jie kergen",
+					"isCorrectAnswer": true,
+					"drawableSource": "R.drawable.jie_kergen"
+				}]
+			}]
+		}]
+	},{
+		"rounds": [{
+			"questions": [{
+				"questionText": "good day",
+				"answers": [{
+					"answerText": "utue kununen",
+					"isCorrectAnswer": true,
+					"drawableSource": "R.drawable.utue_kununen"
+				}, {
+					"answerText": "tuokh sonun",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.tuokh_sonun"
+				}, {
+					"answerText": "khaydakhkhyny",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.khaydakhkhyny"
+				}, {
+					"answerText": "uchugeybin",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.uchugeybin"
+				}]
+			}, {
+				"questionText": "what's new?",
+				"answers": [{
+					"answerText": "utue kununen",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.utue_kununen"
+				}, {
+					"answerText": "tuokh sonun",
+					"isCorrectAnswer": true,
+					"drawableSource": "R.drawable.tuokh_sonun"
+				}, {
+					"answerText": "khaydakhkhyny",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.khaydakhkhyny"
+				}, {
+					"answerText": "uchugeybin",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.uchugeybin"
+				}]
+			}, {
+				"questionText": "how are you?",
+				"answers": [{
+					"answerText": "utue kununen",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.utue_kununen"
+				}, {
+					"answerText": "tuokh sonun",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.tuokh_sonun"
+				}, {
+					"answerText": "khaydakhkhyny",
+					"isCorrectAnswer": true,
+					"drawableSource": "R.drawable.khaydakhkhyny"
+				}, {
+					"answerText": "uchugeybin",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.uchugeybin"
+				}]
+			}, {
+				"questionText": "I am well",
+				"answers": [{
+					"answerText": "utue kununen",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.utue_kununen"
+				}, {
+					"answerText": "tuokh sonun",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.tuokh_sonun"
+				}, {
+					"answerText": "khaydakhkhyny",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.khaydakhkhyny"
+				}, {
+					"answerText": "uchugeybin",
+					"isCorrectAnswer": true,
+					"drawableSource": "R.drawable.uchugeybin"
+				}]
+			}]
+		}]
+	}]
+}

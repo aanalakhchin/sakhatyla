@@ -1,0 +1,93 @@
+{
+	"lessons": [{
+		"rounds": [{
+			"questions": [{
+				"questionText": [{
+				"qText": "Which is a cup?"
+				}],
+				"answers": [
+				{
+					"answerText": "er kihi",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.er_kihi"
+				}, {
+					"answerText": "choroon",
+					"isCorrectAnswer": true,
+					"drawableSource": "R.drawable.choroon"
+				}, {
+					"answerText": "uu",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.uu"
+				}, {
+					"answerText": "kun",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.kun"
+				}]
+			}, {
+				"questionText": [
+				{
+				"qText": "Which is a water?"
+				}],
+				"answers": [{
+					"answerText": "er kihi",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.er_kihi"
+				}, {
+					"answerText": "choroon",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.choroon"
+				}, {
+					"answerText": "uu",
+					"isCorrectAnswer": true,
+					"drawableSource": "R.drawable.uu"
+				}, {
+					"answerText": "kun",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.kun"
+				}]
+			}, {
+				"questionText": [{
+				"qText": "Which is a man?"
+				}],
+				"answers": [{
+					"answerText": "er kihi",
+					"isCorrectAnswer": true,
+					"drawableSource": "R.drawable.er_kihi"
+				}, {
+					"answerText": "choroon",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.choroon"
+				}, {
+					"answerText": "uu",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.uu"
+				}, {
+					"answerText": "kun",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.kun"
+				}]
+			}, {
+				"questionText": [{
+				"qText": "Which is a sun?"
+				}],
+				"answers": [{
+					"answerText": "er kihi",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.er_kihi"
+				}, {
+					"answerText": "choroon",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.choroon"
+				}, {
+					"answerText": "uu",
+					"isCorrectAnswer": false,
+					"drawableSource": "R.drawable.uu"
+				}, {
+					"answerText": "kun",
+					"isCorrectAnswer": true,
+					"drawableSource": "R.drawable.kun"
+				}]
+			}]
+		}]
+	}]
+}
