@@ -1,2 +1,4 @@
 # sakhatyla
-Sakha Tyla Android allows English speaker sto learn Sakha language.
+Sakha Tyla Android app allows English speakers to learn Sakha language in a game form.
+
+Installation file: 
